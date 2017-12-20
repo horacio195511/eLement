@@ -1,0 +1,40 @@
+.auto-style1 {
+	vertical-align: middle;
+}
+aside{
+	display:block;
+	float:left;
+	width:10%;
+    height:90%;
+    border:2px solid ;
+    border-radius:0px 20px 20px 0px;
+    background:gray;
+    background:-webkit-linear-gradient(left ,black, white, black);
+    background:linear-gradient(from left ,black, white, black);
+    position: fixed;
+    top: 0%;
+    left:0%;
+}
+div.main{
+    display:block;
+    width:90%;
+    position:relative;
+    left:11%
+}
+.transition{
+  color:white;
+  border:1px solid white;
+  border-radius:5px;
+  width:100%;
+  cursor:pointer;
+  opacity:0.5;
+  margin:5px;
+  padding:2px 0px 2px 0px;
+  transition:all 0.2s ease-in-out;
+}
+
+.transition:hover{
+  color:white;
+  transform:rotate(10deg) scale(1.4);
+  opacity:1.0;
+}
